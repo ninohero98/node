@@ -6,7 +6,7 @@ app.get('/', function (req, res) {
   res.send('Hello World')
 })
 
-app.get('/students', function (req, res) {
+app.get('/student', function (req, res) {
     var data=[
         {id:1, name:'nicolas'},
         {id:2, name:'gaya'},
